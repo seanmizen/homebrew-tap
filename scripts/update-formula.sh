@@ -24,7 +24,6 @@ cat > Formula/shist.rb <<RB
 class Shist < Formula
   desc "Sean's History Tool (a shell history tool)"
   homepage "https://github.com/$REPO"
-  version "$VER"
   license "MIT"
 
   on_macos do

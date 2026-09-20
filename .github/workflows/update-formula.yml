@@ -32,7 +32,7 @@ jobs:
             echo "formula already up to date"
             exit 0
           fi
-          version=$(grep -m1 '^  version' Formula/shist.rb | cut -d'"' -f2)
+          version=$(grep -m1 -oE 'download/v[^/]+' Formula/shist.rb | cut -d/ -f2)
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "shist $version" -- Formula/shist.rb

@@ -2,7 +2,6 @@
 class Shist < Formula
   desc "Sean's History Tool (a shell history tool)"
   homepage "https://github.com/seanmizen/shist"
-  version "1.0.1"
   license "MIT"
 
   on_macos do
