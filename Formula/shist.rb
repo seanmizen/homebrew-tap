@@ -6,23 +6,23 @@ class Shist < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/seanmizen/shist/releases/download/v1.1.0/shist_1.1.0_darwin_arm64.tar.gz"
-      sha256 "2dbdb426d8d858c453343bb84d175a839df3ac5671b66afc39c1691e4559b50a"
+      url "https://github.com/seanmizen/shist/releases/download/v1.2.0/shist_1.2.0_darwin_arm64.tar.gz"
+      sha256 "ebdc36418aca478dc1e53923dd7c1be4a060706caffc77100b9c5e03403145b9"
     end
     on_intel do
-      url "https://github.com/seanmizen/shist/releases/download/v1.1.0/shist_1.1.0_darwin_amd64.tar.gz"
-      sha256 "d5fa1f24f4fcfdd704c02bb1d0cc1e2e3500eea1a1a6e8bd56da612d6e8e1df6"
+      url "https://github.com/seanmizen/shist/releases/download/v1.2.0/shist_1.2.0_darwin_amd64.tar.gz"
+      sha256 "0437d143271e3052022737ffe51988711e7d10d709bfc3bb266137f2eb628c85"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/seanmizen/shist/releases/download/v1.1.0/shist_1.1.0_linux_arm64.tar.gz"
-      sha256 "ae621841d36b99548e1f7b81917c2b718ce2e0438103095893a1520db32f4150"
+      url "https://github.com/seanmizen/shist/releases/download/v1.2.0/shist_1.2.0_linux_arm64.tar.gz"
+      sha256 "3922f08b577bb0b93f3ae7c59e02767edaa07d853a5e8d1e099e6374a0878992"
     end
     on_intel do
-      url "https://github.com/seanmizen/shist/releases/download/v1.1.0/shist_1.1.0_linux_amd64.tar.gz"
-      sha256 "abf72b01e2d089888898f85124c69334c79a728788a51489bc83a0ff3b444011"
+      url "https://github.com/seanmizen/shist/releases/download/v1.2.0/shist_1.2.0_linux_amd64.tar.gz"
+      sha256 "0cbd0a44d5b628ed4f226b934aa2f44e076a303c48804434d6c455f50419a195"
     end
   end
 
