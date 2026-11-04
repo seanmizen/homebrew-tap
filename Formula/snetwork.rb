@@ -6,23 +6,23 @@ class Snetwork < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/seanmizen/snetwork/releases/download/v0.1.0/snetwork_0.1.0_darwin_arm64.tar.gz"
-      sha256 "e47d091992e58ad5e4e1b2a75ada6ea3e96d97a93251d0409882263c67f77544"
+      url "https://github.com/seanmizen/snetwork/releases/download/v0.1.1/snetwork_0.1.1_darwin_arm64.tar.gz"
+      sha256 "97b0a75ec256612df0f919928e7a0ecf8adb9e6c60db21bb69a8554b1441d255"
     end
     on_intel do
-      url "https://github.com/seanmizen/snetwork/releases/download/v0.1.0/snetwork_0.1.0_darwin_amd64.tar.gz"
-      sha256 "0faa4120125bda0d55a737cb22cacae86053bdce2d00d339a8c3853fce4b131c"
+      url "https://github.com/seanmizen/snetwork/releases/download/v0.1.1/snetwork_0.1.1_darwin_amd64.tar.gz"
+      sha256 "6804d5bb06f4a5faf5cde5dde50e244be883660913260a719ccdc6770345ea39"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/seanmizen/snetwork/releases/download/v0.1.0/snetwork_0.1.0_linux_arm64.tar.gz"
-      sha256 "990923cc9beabfb4b21d7dcb4a295fcef0c1bdb765901c2b3989cf01be553f5a"
+      url "https://github.com/seanmizen/snetwork/releases/download/v0.1.1/snetwork_0.1.1_linux_arm64.tar.gz"
+      sha256 "070fd8f1b3e88d14b948c5221a16e06389ea933b5dfbdb754d1dd74e78fdba00"
     end
     on_intel do
-      url "https://github.com/seanmizen/snetwork/releases/download/v0.1.0/snetwork_0.1.0_linux_amd64.tar.gz"
-      sha256 "b4bf509fc48828793eb3e2902ff9b112304fd8e6c858c11a3a4cab4050e5b2f5"
+      url "https://github.com/seanmizen/snetwork/releases/download/v0.1.1/snetwork_0.1.1_linux_amd64.tar.gz"
+      sha256 "c9407aafe671be9a31e3cdb6d87bb5a357f2f86764543d2aa15c816090f62648"
     end
   end
 
